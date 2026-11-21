@@ -123,10 +123,10 @@ export default function Home() {
                   <div className="chart-y-labels"><span>120</span><span>100</span><span>80</span><span>60</span><span>40</span></div>
                   <div className="chart-grid-lines"><i /><i /><i /><i /><i /></div>
                   <svg className="chart-line" viewBox="0 0 440 180" preserveAspectRatio="none" role="img" aria-label="Courbe de prévision ascendante">
-                    <defs><linearGradient id="areaFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stopColor="#ff765f" stopOpacity=".28" /><stop offset="100%" stopColor="#ff765f" stopOpacity="0" /></linearGradient></defs>
+                    <defs><linearGradient id="areaFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stopColor="#00AB4E" stopOpacity=".28" /><stop offset="100%" stopColor="#00AB4E" stopOpacity="0" /></linearGradient></defs>
                     <path d="M0,145 C28,138 33,125 62,130 S92,118 114,121 S145,112 164,118 S191,92 215,101 S246,79 270,87 S300,72 323,79 S347,53 370,61 S395,34 440,22 L440,180 L0,180 Z" fill="url(#areaFill)" />
-                    <path d="M0,145 C28,138 33,125 62,130 S92,118 114,121 S145,112 164,118 S191,92 215,101 S246,79 270,87 S300,72 323,79 S347,53 370,61 S395,34 440,22" fill="none" stroke="#ff765f" strokeWidth="3" strokeLinecap="round" />
-                    <circle cx="370" cy="61" r="5" fill="#fff" stroke="#ff765f" strokeWidth="3" />
+                    <path d="M0,145 C28,138 33,125 62,130 S92,118 114,121 S145,112 164,118 S191,92 215,101 S246,79 270,87 S300,72 323,79 S347,53 370,61 S395,34 440,22" fill="none" stroke="#00AB4E" strokeWidth="3" strokeLinecap="round" />
+                    <circle cx="370" cy="61" r="5" fill="#fff" stroke="#00AB4E" strokeWidth="3" />
                   </svg>
                   <div className="chart-x-labels"><span>2020</span><span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span></div>
                 </div>
